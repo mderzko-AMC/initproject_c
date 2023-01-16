@@ -29,9 +29,9 @@ This makefile use two step compilation on the following steps:
 
 ## Use
 For compile and run program, type `make` or `make all` in command prompt.
-Use `make build` for build only. For clean type `make clean`.
+Use `make build` for build only. For clean, type `make clean`.
 
-## Output
+## Example output
 ```
 PS C:\Path\to\project> make 
 find 1 files on lib folder
