@@ -1,5 +1,6 @@
 Building projects on following file arrangement:
 
+```
 project/
 ├─ lib/
 │  ├─ testlib1.c
@@ -13,6 +14,7 @@ project/
 │  ├─ out.exe
 ├─ main.c
 ├─ makefile
+```
 
 This makefile use two step compilation on the following steps:
 - making and merging folders
