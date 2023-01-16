@@ -1,27 +1,27 @@
 Building projects on following file arrangement:
 
-project
-	ests
-		test.py
+	project
+		tests
+			test.py
 
-	lib
+		lib
 
-		lib1.c
-		lib1.h
+			lib1.c
+			lib1.h
+			
+			lib2.c
+			lib2.h
+			
+			...
+
+		build
+			out.exe
 		
-		lib2.c
-		lib2.h
-		
-		...
+			raw
+				libs.out
+				main.out
 
-	build
-		out.exe
-	
-		raw
-			libs.out
-			main.out
-
-	main.c
+		main.c
 
 This makefile use two step compilation on the following steps:
 - making and merging folders
