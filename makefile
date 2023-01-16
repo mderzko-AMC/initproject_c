@@ -7,11 +7,15 @@ RAWFILES_PATH = ./build/raw
 LIB_FILES := $(wildcard $(LIB_PATH)/*$(EXT))
 NO_LIB_FILES := $(words $(LIB_FILES))
 
-build: preparation build_libs build_main
+all: preparation build_libs build_main
 	@echo -e "\e[1;34mcompile... \e[0m"
 	@$(CC) -o $(BUILD_PATH)/out $(RAWFILES_PATH)/libs.out $(RAWFILES_PATH)/main.out $(CFLAGS)
 	@echo -e "\e[1;34m====== Run! ====== \e[0m"
 	@$(BUILD_PATH)/out
+
+build: preparation build_libs build_main
+	@echo -e "\e[1;34mcompile... \e[0m"
+	@$(CC) -o $(BUILD_PATH)/out $(RAWFILES_PATH)/libs.out $(RAWFILES_PATH)/main.out $(CFLAGS)
 
 preparation:
 	@echo find $(NO_LIB_FILES) files on lib folder
