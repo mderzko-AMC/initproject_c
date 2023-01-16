@@ -6,9 +6,6 @@ BUILD_PATH = ./build
 RAWFILES_PATH = ./build/raw
 LIB_FILES := $(wildcard $(LIB_PATH)/*$(EXT))
 
-path = `la`
-
-
 
 build: preparation build_libs build_main
 	@$(CC) -o $(BUILD_PATH)/out $(RAWFILES_PATH)/libs.out $(RAWFILES_PATH)/main.out
