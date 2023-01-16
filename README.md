@@ -1,22 +1,24 @@
 # Init makefile code
 
-
 Building projects on following file arrangement:
 
 ```
 project/
-├─ lib/
-│  ├─ testlib1.c
-│  ├─ testlib1.h
-├─ test/
-│  ├─ test.py
-├─ build/
-│  ├─ raw/
-│  │  ├─ libs.out
-│  │  ├─ main.out
-│  ├─ out.exe
+├── lib/
+│	├─ lib1.c
+│	├─ lib1.h
+│	├─ lib2.c
+│	├─ lib2.h
+│	└─ ...
+├── test/
+│	└─ test.py
+├── build/
+│	├─ raw/
+│	│	├─ libs.out
+│	│	└─ main.out
+│	└─ out.exe
 ├─ main.c
-├─ makefile
+└─ makefile
 ```
 
 This makefile use two step compilation on the following steps:
