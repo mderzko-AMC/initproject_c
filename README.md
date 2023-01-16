@@ -29,5 +29,5 @@ This makefile use two step compilation on the following steps:
 - main compilation (main.c)
 - building out.exe from libs.out and main.out
 
-For running program type 'make' in command prompt.
+For running program type `make` in command prompt.
 
