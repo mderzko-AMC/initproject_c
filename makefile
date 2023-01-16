@@ -8,9 +8,9 @@ LIB_FILES := $(wildcard $(LIB_PATH)/*$(EXT))
 
 
 build: preparation build_libs build_main
+	@echo -e "\e[1;34mcompile... \e[0m"
 	@$(CC) -o $(BUILD_PATH)/out $(RAWFILES_PATH)/libs.out $(RAWFILES_PATH)/main.out
-	@echo running...
-	@echo 
+	@echo -e "\e[1;34m====== Run! ====== \e[0m"
 	@$(BUILD_PATH)/out
 
 preparation:
