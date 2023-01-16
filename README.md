@@ -1,3 +1,6 @@
+# Init makefile code
+
+
 Building projects on following file arrangement:
 
 ```
@@ -23,4 +26,15 @@ This makefile use two step compilation on the following steps:
 - building out.exe from libs.out and main.out
 
 For running program type `make` in command prompt.
+
+
+## Output
+```
+PS C:\Users\mderzko\Desktop\projekty\initproject_c> make 
+find 1 files on lib folder
+compile... 
+====== Run! ====== 
+hello test
+Len of string "one two tree..." is 15
+```
 
