@@ -30,7 +30,7 @@ For running program type `make` in command prompt.
 
 ## Output
 ```
-PS C:\Users\mderzko\Desktop\projekty\initproject_c> make 
+PS C:\Path\to\project> make 
 find 1 files on lib folder
 compile... 
 ====== Run! ====== 
