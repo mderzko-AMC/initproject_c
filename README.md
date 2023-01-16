@@ -27,4 +27,7 @@ This makefile use two step compilation on the following steps:
 - making and merging folders
 - dependences compilation (lib folder)
 - main compilation (main.c)
-- building out.exe from 
+- building out.exe from libs.out and main.out
+
+For running program type 'make' in command prompt.
+
